@@ -1,0 +1,46 @@
+{
+     "onApp":true,
+     "server":"",
+     "initPreload":[
+                    "config/spot.json",
+                    "ui.json",
+                    "unpack.json",
+                    "config/scene.json",
+                    "res/atlas/Login.atlas"
+               ],
+	"initGame":[
+                    "res/atlas/common/common_bg2.atlas",
+                     "res/atlas/common/common_btn2.atlas",
+                    "res/atlas/common/common_icon.atlas",
+                    "res/atlas/common/find2.atlas",
+                    "res/atlas/common/find3.atlas",
+					"res/atlas/common.atlas",
+					"config/recharge.json",
+                    "config/general.json",                              
+                    "config/npcname.json",                  
+                    "config/ranking.json",                  
+                    "config/match.json",
+    
+                    "config/level.json",
+					"config/word_num.json"
+					 
+                ],
+	"womanSkin":[
+      
+                ],
+			"manSkin":[
+                 
+                ],		
+	"initModule":{
+					"FindScene":["res/atlas/find.atlas"],
+					"MainScene":["res/atlas/MainUi.atlas","res/atlas/mainUI1.atlas"],
+					"CommentDialog":["res/atlas/comment.atlas"],
+					"GuideView":["res/atlas/guide.atlas","res/atlas/ShopView.atlas","config/newplayer.json"],
+					"ShareView":["res/atlas/share.atlas"],	
+					"TVStartView":["res/atlas/tvStart.atlas"],
+                    "MainTopView": ["res/atlas/MainUi.atlas","res/atlas/RoleUi.atlas","config/buy_money_proto.json"]
+ 
+			},
+	"initConfig":{
+		     }
+}
